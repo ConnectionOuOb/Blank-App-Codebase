@@ -1,10 +1,13 @@
 # app
 
-## Support platform
+## Replace icon
 
-- [x] Android
-- [x] iOS
-- [x] Web
-- [x] Windows
-- [x] MacOS
-- [x] Linux
+### Command
+
+```flutter pub run flutter_launcher_icons```
+
+## Build command
+
+### Web
+
+```flutter build web --no-tree-shake-icons --base-href /PATH/```
